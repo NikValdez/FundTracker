@@ -1,7 +1,6 @@
 import { ApolloServer } from 'apollo-server-express'
 const { Mutation } = require('./resolvers/Mutation')
 import { Query } from './resolvers/Query'
-// const db = require('./db')
 import path from 'path'
 import { importSchema } from 'graphql-import'
 import { prisma } from './generated/prisma-client'
